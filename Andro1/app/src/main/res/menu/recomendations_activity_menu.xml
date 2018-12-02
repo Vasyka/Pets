@@ -1,0 +1,23 @@
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<item
+		android:id="@+id/menu_icon_menu_item"
+		android:icon="@drawable/menu_icon_4"
+		app:showAsAction="ifRoom"/>
+
+	<item
+		android:id="@+id/headline6_menu_item"
+		android:title="@string/recomendations_activity_headline6_menu_item_text"/>
+
+	<item
+		android:id="@+id/icon2_menu_item"
+		android:icon="@drawable/icon_2"
+		app:showAsAction="ifRoom"/>
+
+	<item
+		android:id="@+id/icon3_menu_item"
+		android:icon="@drawable/_icon_4"
+		app:showAsAction="ifRoom"/>
+</menu>

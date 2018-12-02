@@ -1,0 +1,14 @@
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<item
+		android:id="@+id/icon2_menu_item"
+		android:icon="@drawable/icon_2"
+		app:showAsAction="ifRoom"/>
+
+	<item
+		android:id="@+id/icon3_menu_item"
+		android:icon="@drawable/_icon_4"
+		app:showAsAction="ifRoom"/>
+</menu>

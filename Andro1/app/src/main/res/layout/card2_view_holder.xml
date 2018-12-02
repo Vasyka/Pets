@@ -1,0 +1,270 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card2"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/card2_view_holder_card2_height"
+    android:background="@drawable/card2_view_holder_card2_background">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/chip_constraint_layout"
+        android:layout_width="@dimen/card2_view_holder_chip_constraint_layout_width"
+        android:layout_height="@dimen/card2_view_holder_chip_constraint_layout_height"
+        android:layout_marginLeft="@dimen/card2_view_holder_chip_constraint_layout_margin_start"
+        android:layout_marginTop="@dimen/card2_view_holder_chip_constraint_layout_margin_top"
+        app:layout_constraintLeft_toRightOf="@+id/chip_two_constraint_layout"
+        app:layout_constraintTop_toBottomOf="@+id/title_and_description_constraint_layout"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="76dp">
+    
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/surface_constraint_layout"
+            android:layout_width="@dimen/card2_view_holder_surface_constraint_layout_width"
+            android:layout_height="@dimen/card2_view_holder_surface_constraint_layout_height"
+            android:background="@drawable/card2_view_holder_surface_constraint_layout_background"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"/>
+    
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/tonal_palette_constraint_layout"
+            android:layout_width="@dimen/card2_view_holder_tonal_palette_constraint_layout_width"
+            android:layout_height="@dimen/card2_view_holder_tonal_palette_constraint_layout_height"
+            android:background="@color/card2_view_holder_tonal_palette_constraint_layout_background_color"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"/>
+    
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/rectangle3_constraint_layout"
+            android:layout_width="@dimen/card2_view_holder_rectangle3_constraint_layout_width"
+            android:layout_height="@dimen/card2_view_holder_rectangle3_constraint_layout_height"
+            android:background="@color/card2_view_holder_rectangle3_constraint_layout_background_color"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"/>
+    
+        <TextView
+            android:id="@+id/caption_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card2_view_holder_caption_text_view_margin_start"
+            android:fontFamily="@font/font_roboto_regular"
+            android:gravity="center"
+            android:letterSpacing="0.02"
+            android:lineSpacingMultiplier="1.14"
+            android:text="Accurate feeding"
+            android:textColor="@color/card2_view_holder_caption_text_view_text_color"
+            android:textSize="@dimen/card2_view_holder_caption_text_view_text_size"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="0dp"/>
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/chip_two_constraint_layout"
+        android:layout_width="@dimen/card2_view_holder_chip_two_constraint_layout_width"
+        android:layout_height="@dimen/card2_view_holder_chip_two_constraint_layout_height"
+        android:layout_marginLeft="@dimen/card2_view_holder_chip_two_constraint_layout_margin_start"
+        android:layout_marginTop="@dimen/card2_view_holder_chip_two_constraint_layout_margin_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_and_description_constraint_layout"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="76dp">
+    
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/surface_two_constraint_layout"
+            android:layout_width="@dimen/card2_view_holder_surface_two_constraint_layout_width"
+            android:layout_height="@dimen/card2_view_holder_surface_two_constraint_layout_height"
+            android:background="@drawable/card2_view_holder_surface_two_constraint_layout_background"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"/>
+    
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/tonal_palette_two_constraint_layout"
+            android:layout_width="@dimen/card2_view_holder_tonal_palette_two_constraint_layout_width"
+            android:layout_height="@dimen/card2_view_holder_tonal_palette_two_constraint_layout_height"
+            android:background="@color/card2_view_holder_tonal_palette_two_constraint_layout_background_color"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"/>
+    
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/rectangle3_two_constraint_layout"
+            android:layout_width="@dimen/card2_view_holder_rectangle3_two_constraint_layout_width"
+            android:layout_height="@dimen/card2_view_holder_rectangle3_two_constraint_layout_height"
+            android:background="@color/card2_view_holder_rectangle3_two_constraint_layout_background_color"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"/>
+    
+        <TextView
+            android:id="@+id/caption_two_text_view"
+            android:layout_width="@dimen/card2_view_holder_caption_two_text_view_width"
+            android:layout_height="@dimen/card2_view_holder_caption_two_text_view_height"
+            android:layout_marginLeft="@dimen/card2_view_holder_caption_two_text_view_margin_start"
+            android:fontFamily="@font/font_roboto_regular"
+            android:gravity="center"
+            android:letterSpacing="0.02"
+            android:lineSpacingMultiplier="1.14"
+            android:text="Accurate feeding"
+            android:textColor="@color/card2_view_holder_caption_two_text_view_text_color"
+            android:textSize="@dimen/card2_view_holder_caption_two_text_view_text_size"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="-9dp"
+            tools:layout_editor_absoluteY="0dp"/>
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/chip_three_constraint_layout"
+        android:layout_width="@dimen/card2_view_holder_chip_three_constraint_layout_width"
+        android:layout_height="@dimen/card2_view_holder_chip_three_constraint_layout_height"
+        android:layout_marginLeft="@dimen/card2_view_holder_chip_three_constraint_layout_margin_start"
+        android:layout_marginTop="@dimen/card2_view_holder_chip_three_constraint_layout_margin_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_and_description_constraint_layout"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="76dp">
+    
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/surface_three_constraint_layout"
+            android:layout_width="@dimen/card2_view_holder_surface_three_constraint_layout_width"
+            android:layout_height="@dimen/card2_view_holder_surface_three_constraint_layout_height"
+            android:background="@drawable/card2_view_holder_surface_three_constraint_layout_background"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"/>
+    
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/tonal_palette_three_constraint_layout"
+            android:layout_width="@dimen/card2_view_holder_tonal_palette_three_constraint_layout_width"
+            android:layout_height="@dimen/card2_view_holder_tonal_palette_three_constraint_layout_height"
+            android:background="@color/card2_view_holder_tonal_palette_three_constraint_layout_background_color"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"/>
+    
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/rectangle3_three_constraint_layout"
+            android:layout_width="@dimen/card2_view_holder_rectangle3_three_constraint_layout_width"
+            android:layout_height="@dimen/card2_view_holder_rectangle3_three_constraint_layout_height"
+            android:background="@color/card2_view_holder_rectangle3_three_constraint_layout_background_color"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"/>
+    
+        <TextView
+            android:id="@+id/caption_three_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card2_view_holder_caption_three_text_view_margin_start"
+            android:fontFamily="@font/font_roboto_regular"
+            android:gravity="center"
+            android:letterSpacing="0.02"
+            android:lineSpacingMultiplier="1.14"
+            android:text="Accurate feeding"
+            android:textColor="@color/card2_view_holder_caption_three_text_view_text_color"
+            android:textSize="@dimen/card2_view_holder_caption_three_text_view_text_size"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="0dp"/>
+    </android.support.constraint.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/avatar_image_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/card2_view_holder_avatar_image_image_view_margin_start"
+        android:layout_marginTop="@dimen/card2_view_holder_avatar_image_image_view_margin_top"
+        android:src="@drawable/_avatar_image_2"
+        app:layout_constraintLeft_toRightOf="@+id/title_and_description_constraint_layout"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="17dp"/>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/title_and_description_constraint_layout"
+        android:layout_width="@dimen/card2_view_holder_title_and_description_constraint_layout_width"
+        android:layout_height="@dimen/card2_view_holder_title_and_description_constraint_layout_height"
+        android:layout_marginLeft="@dimen/card2_view_holder_title_and_description_constraint_layout_margin_start"
+        android:layout_marginTop="@dimen/card2_view_holder_title_and_description_constraint_layout_margin_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="17dp">
+    
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/headline5_color_style_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/card2_view_holder_headline5_color_style_constraint_layout_height"
+            android:layout_marginTop="@dimen/card2_view_holder_headline5_color_style_constraint_layout_margin_top"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/body2_color_style_constraint_layout"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="21dp">
+        
+            <TextView
+                android:id="@+id/headline5_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/card2_view_holder_headline5_text_view_margin_end"
+                android:fontFamily="@font/font_roboto_regular"
+                android:gravity="left"
+                android:lineSpacingMultiplier="1"
+                android:text="Diabetes"
+                android:textColor="@color/card2_view_holder_headline5_text_view_text_color"
+                android:textSize="@dimen/card2_view_holder_headline5_text_view_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp"/>
+        </android.support.constraint.ConstraintLayout>
+    
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/body2_color_style_constraint_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/card2_view_holder_body2_color_style_constraint_layout_height"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+        
+            <TextView
+                android:id="@+id/body2_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/card2_view_holder_body2_text_view_margin_end"
+                android:fontFamily="@font/font_roboto_regular"
+                android:gravity="left"
+                android:letterSpacing="0.01"
+                android:lineSpacingMultiplier="1.05"
+                android:text="Diabetes in dogs is a complex disea.."
+                android:textColor="@color/card2_view_holder_body2_text_view_text_color"
+                android:textSize="@dimen/card2_view_holder_body2_text_view_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="-1dp"/>
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

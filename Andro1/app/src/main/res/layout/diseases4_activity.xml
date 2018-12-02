@@ -1,0 +1,83 @@
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/diseases4_constraint_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/diseases4_activity_diseases4_constraint_layout_background_color">
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/cards_full_image_constraint_layout"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/diseases4_activity_cards_full_image_constraint_layout_height"
+		android:layout_marginTop="@dimen/diseases4_activity_cards_full_image_constraint_layout_margin_top"
+		android:background="@drawable/diseases4_activity_cards_full_image_constraint_layout_background"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="56dp">
+	
+		<ImageView
+			android:id="@+id/surface_image_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/surface_6"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="0dp"/>
+	
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/text_subtitle2_black_high_emphasis_left_constraint_layout"
+			android:layout_width="@dimen/diseases4_activity_text_subtitle2_black_high_emphasis_left_constraint_layout_width"
+			android:layout_height="@dimen/diseases4_activity_text_subtitle2_black_high_emphasis_left_constraint_layout_height"
+			android:layout_marginLeft="@dimen/diseases4_activity_text_subtitle2_black_high_emphasis_left_constraint_layout_margin_start"
+			android:layout_marginTop="@dimen/diseases4_activity_text_subtitle2_black_high_emphasis_left_constraint_layout_margin_top"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="5dp"
+			tools:layout_editor_absoluteY="62dp">
+		
+			<TextView
+				android:id="@+id/headline5_text_view"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="@dimen/diseases4_activity_headline5_text_view_margin_end"
+				android:layout_marginTop="@dimen/diseases4_activity_headline5_text_view_margin_top"
+				android:fontFamily="@font/font_roboto_regular"
+				android:gravity="left"
+				android:lineSpacingMultiplier="1"
+				android:text=" Your cat is ok!"
+				android:textColor="@color/diseases4_activity_headline5_text_view_text_color"
+				android:textSize="@dimen/diseases4_activity_headline5_text_view_text_size"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintRight_toRightOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				tools:layout_editor_absoluteX="0dp"
+				tools:layout_editor_absoluteY="26dp"/>
+		</android.support.constraint.ConstraintLayout>
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/recycler_view_recycler_view"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/diseases4_activity_recycler_view_recycler_view_height"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/cards_full_image_constraint_layout"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="185dp"
+		tools:listitem="@layout/card_view_holder"/>
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/toolbar"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:background="@color/diseases4_activity_toolbar_background_color"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"/>
+</android.support.constraint.ConstraintLayout>

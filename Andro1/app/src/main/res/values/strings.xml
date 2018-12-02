@@ -1,0 +1,140 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<string name="app_name">Andro1</string>
+	
+	<!-- AddPetActivity -->
+	<string name="add_pet_activity_title"></string>
+	<string name="add_pet_activity_menu_item_title">Item</string>
+	<string name="add_pet_activity_get_started_button_text">Add pet!</string>
+	
+	<!-- Input3Activity -->
+	<string name="input3_activity_title"></string>
+	<string name="input3_activity_input_device_number_text_view_text">Device number</string>
+	<string name="input3_activity_input_name_edit_text_text">Pet name</string>
+	<string name="input3_activity_greeting_text_view_text">Hello, Mike!</string>
+	<string name="input3_activity_greet_text_text_view_text">Please input below the number of device and name of pet:</string>
+	<string name="input3_activity_continue_button_text">CONTINUE</string>
+	
+	<!-- TodayActivity -->
+	<string name="today_activity_title">Activity today</string>
+	<string name="today_activity_menu_item_title">Today</string>
+	<string name="today_activity_body2_text_view_text">5км</string>
+	<string name="today_activity_subtitle1_text_view_text">Distance</string>
+	<string name="today_activity_body2_two_text_view_text">Normal</string>
+	<string name="today_activity_subtitle1_two_text_view_text">Sounds</string>
+	<string name="today_activity_body2_three_text_view_text">38°C</string>
+	<string name="today_activity_subtitle1_three_text_view_text">Temperature</string>
+	<string name="today_activity_body2_four_text_view_text">100 уд/мин</string>
+	<string name="today_activity_subtitle1_four_text_view_text">Heartbeat</string>
+	<string name="today_activity_location_button_text">Moscow, Red Square, 1</string>
+	
+	<!-- LocationActivity -->
+	<string name="location_activity_title">Current location</string>
+	<string name="location_activity_menu_item_title">Item</string>
+	
+	<!-- DiseaseActivity -->
+	<string name="disease_activity_title">Kennel Cough</string>
+	<string name="disease_activity_menu_item_title">Diseases</string>
+	<string name="disease_activity_caption_text_view_text">Enabled</string>
+	<string name="disease_activity_caption_two_text_view_text">Medicine</string>
+	<string name="disease_activity_caption_three_text_view_text">Visit doctor</string>
+	<string name="disease_activity_headline5_text_view_text">Kennel Cough</string>
+	<string name="disease_activity_body2_text_view_text">Probability of disease: 13%</string>
+	<string name="disease_activity_desc1_text_view_text">Kennel cough is a term loosely used to describe a complex of respiratory infections, that causes inflammation of a dog’s voice box and windpipe.</string>
+	<string name="disease_activity_desc2_text_view_text">Kennel Cough Prevention</string>
+	<string name="disease_activity_desc3_text_view_text">- The best way to prevent kennel cough is to prevent exposure.
+- Vaccinations are also available for several of the agents known to be involved in kennel cough, including parainfluenza, Bordetella and adenovirus-2.
+- Ask your vet if these are recommended, and how often.</string>
+	
+	<!-- StatisticsActivity -->
+	<string name="statistics_activity_title">Statistics</string>
+	<string name="statistics_activity_menu_item_title">Statistics</string>
+	<string name="statistics_activity_headline5_text_view_text">3</string>
+	<string name="statistics_activity_body2_text_view_text">Special: number of bites</string>
+	<string name="statistics_activity_headline5_two_text_view_text">666</string>
+	<string name="statistics_activity_body2_two_text_view_text">Purrs</string>
+	<string name="statistics_activity_headline5_three_text_view_text">10.7L</string>
+	<string name="statistics_activity_body2_three_text_view_text">Drinks</string>
+	<string name="statistics_activity_overline_text_view_text">DRY FEED VS WET FEED</string>
+	<string name="statistics_activity_headline5_four_text_view_text">40</string>
+	<string name="statistics_activity_body2_four_text_view_text">Defecation number</string>
+	<string name="statistics_activity_headline5_five_text_view_text">880kcal</string>
+	<string name="statistics_activity_body2_five_text_view_text">Calories</string>
+	<string name="statistics_activity_overline_two_text_view_text">PLAYING WITH OWNER VS ITSELF </string>
+	<string name="statistics_activity_headline5_six_text_view_text">312h</string>
+	<string name="statistics_activity_body2_six_text_view_text">Sleep</string>
+	<string name="statistics_activity_headline5_seven_text_view_text">12</string>
+	<string name="statistics_activity_body2_seven_text_view_text">Active days</string>
+	
+	<!-- Diseases4Activity -->
+	<string name="diseases4_activity_title">Diseases prevention</string>
+	<string name="diseases4_activity_menu_item_title">Diseases</string>
+	<string name="diseases4_activity_headline5_text_view_text"> Your cat is ok!</string>
+	<string name="card_view_holder_caption_text_view_text">Enabled</string>
+	<string name="card_view_holder_caption_two_text_view_text">Enabled</string>
+	<string name="card_view_holder_caption_three_text_view_text">Enabled</string>
+	<string name="card_view_holder_headline5_text_view_text">Hypothermia</string>
+	<string name="card_view_holder_body2_text_view_text">Probability of disease: 3%</string>
+	<string name="card2_view_holder_caption_text_view_text">Accurate feeding</string>
+	<string name="card2_view_holder_caption_two_text_view_text">Accurate feeding</string>
+	<string name="card2_view_holder_caption_three_text_view_text">Accurate feeding</string>
+	<string name="card2_view_holder_headline5_text_view_text">Diabetes</string>
+	<string name="card2_view_holder_body2_text_view_text">Diabetes in dogs is a complex disea..</string>
+	<string name="card3_view_holder_caption_text_view_text">Medicine</string>
+	<string name="card3_view_holder_caption_two_text_view_text">Medicine</string>
+	<string name="card3_view_holder_caption_three_text_view_text">Medicine</string>
+	<string name="card3_view_holder_headline5_text_view_text">Kennel Cough</string>
+	<string name="card3_view_holder_body2_text_view_text">Probability of disease: 13%</string>
+	
+	<!-- RecomendationsActivity -->
+	<string name="recomendations_activity_title"></string>
+	<string name="recomendations_activity_menu_item_title">Recommend</string>
+	<string name="recomendations_activity_headline6_menu_item_text">Recomendations</string>
+	<string name="card_big_view_holder_headline6_text_view_text">Where to go for a walk!</string>
+	<string name="card_big_view_holder_overline_text_view_text">90 LIKES</string>
+	<string name="card_small_view_holder_caption_text_view_text">Treatment</string>
+	<string name="card_small_view_holder_caption_two_text_view_text">Treatment</string>
+	<string name="card_small_view_holder_headline6_text_view_text">Headline 6</string>
+	<string name="card_small2_view_holder_caption_text_view_text">Care</string>
+	<string name="card_small2_view_holder_caption_two_text_view_text">Care</string>
+	<string name="card_small2_view_holder_headline6_text_view_text">Feeding? Simple!</string>
+	
+	<!-- WalksActivity -->
+	<string name="walks_activity_title">Walks</string>
+	<string name="walks_activity_menu_item_title">Walks</string>
+	<string name="walk_card_view_holder_body2_text_view_text">03:15 - 04:07</string>
+	<string name="walk_card_view_holder_headline6_text_view_text">02.05.18</string>
+	<string name="walk_card2_view_holder_body2_text_view_text">03:15 - 04:07</string>
+	<string name="walk_card2_view_holder_headline6_text_view_text">07.05.18</string>
+	
+	<!-- WalkActivity -->
+	<string name="walk_activity_title">Current walk</string>
+	<string name="walk_activity_menu_item_title">Walks</string>
+	<string name="walk_activity_subtitle1_text_view_text">03:10 - 04:05</string>
+	<string name="walk_activity_subtitle1_two_text_view_text">10 км</string>
+	<string name="walk_activity_subtitle1_three_text_view_text">220 ccal</string>
+	<string name="walk_activity_subtitle1_four_text_view_text">-3°C</string>
+	
+	<!-- MenuActivity -->
+	<string name="menu_activity_title"></string>
+	<string name="menu_activity_headline6_text_view_text">Walks</string>
+	<string name="menu_activity_body2_text_view_text">03:15 - 04:07</string>
+	<string name="menu_activity_headline6_two_text_view_text">02.05.18</string>
+	<string name="menu_activity_body2_two_text_view_text">03:15 - 04:07</string>
+	<string name="menu_activity_headline6_three_text_view_text">07.05.18</string>
+	<string name="menu_activity_caption_text_view_text">Walks</string>
+	<string name="menu_activity_body2_three_text_view_text">03:15 - 04:07</string>
+	<string name="menu_activity_headline6_four_text_view_text">13.05.18</string>
+	<string name="menu_activity_body2_four_text_view_text">03:15 - 04:07</string>
+	<string name="menu_activity_headline6_five_text_view_text">14.05.18</string>
+	<string name="menu_activity_body2_five_text_view_text">Help</string>
+	<string name="menu_activity_body2_six_text_view_text">Help</string>
+	<string name="menu_activity_body2_seven_text_view_text">Help</string>
+	<string name="menu_activity_body2_eight_text_view_text">All pets</string>
+	<string name="menu_activity_headline6_six_text_view_text">Dog owner name</string>
+	<string name="menu_activity_body2_nine_text_view_text">dogownername@gmail.com</string>
+	
+	<!-- TwoActivity -->
+	<string name="two_activity_title">Activity today</string>
+</resources>

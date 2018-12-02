@@ -1,0 +1,45 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/color_primary</item>
+		<item name="colorPrimaryDark">@color/color_primary_dark</item>
+		<item name="colorAccent">@color/color_accent</item>
+	</style>
+	
+	<!-- AddPetActivity -->
+	<style name="AddPetActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- Input3Activity -->
+	<style name="Input3ActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- TodayActivity -->
+	<style name="TodayActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- LocationActivity -->
+	<style name="LocationActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- DiseaseActivity -->
+	<style name="DiseaseActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- StatisticsActivity -->
+	<style name="StatisticsActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- Diseases4Activity -->
+	<style name="Diseases4ActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- RecomendationsActivity -->
+	<style name="RecomendationsActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- WalksActivity -->
+	<style name="WalksActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- WalkActivity -->
+	<style name="WalkActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- MenuActivity -->
+	<style name="MenuActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- TwoActivity -->
+	<style name="TwoActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+</resources>

@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/add_pet_relative_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/add_pet_activity_add_pet_constraint_layout_background_color">
+
+	<ImageView
+		android:id="@+id/bg_image_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginStart="0dp"
+		android:layout_marginTop="0dp"
+		android:scaleType="centerCrop"
+		android:src="@drawable/bg" />
+
+	<Button
+		android:id="@+id/get_started_button"
+		android:layout_width="@dimen/add_pet_activity_get_started_button_width"
+		android:layout_height="@dimen/add_pet_activity_get_started_button_height"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="206dp"
+		android:background="@drawable/add_pet_activity_get_started_button_selector"
+		android:fontFamily="@font/font_baloo_regular"
+		android:gravity="center"
+		android:lineSpacingMultiplier="1"
+		android:text="Add pet!"
+		android:textColor="@color/add_pet_activity_get_started_button_text_color"
+		android:textSize="@dimen/add_pet_activity_get_started_button_text_size" />
+</RelativeLayout>

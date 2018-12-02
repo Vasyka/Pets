@@ -1,0 +1,372 @@
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/disease_constraint_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/disease_activity_disease_constraint_layout_background_color">
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/chip1_constraint_layout"
+		android:layout_width="@dimen/disease_activity_chip1_constraint_layout_width"
+		android:layout_height="@dimen/disease_activity_chip1_constraint_layout_height"
+		android:layout_marginRight="@dimen/disease_activity_chip1_constraint_layout_margin_end"
+		android:layout_marginTop="@dimen/disease_activity_chip1_constraint_layout_margin_top"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/image_image_view"
+		tools:layout_editor_absoluteX="236dp"
+		tools:layout_editor_absoluteY="185dp">
+	
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/surface_constraint_layout"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/disease_activity_surface_constraint_layout_height"
+			android:layout_marginLeft="@dimen/disease_activity_surface_constraint_layout_margin_start"
+			android:layout_marginRight="@dimen/disease_activity_surface_constraint_layout_margin_end"
+			android:layout_marginTop="@dimen/disease_activity_surface_constraint_layout_margin_top"
+			android:background="@drawable/disease_activity_surface_constraint_layout_background"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="6dp"
+			tools:layout_editor_absoluteY="-5dp"/>
+	
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/tonal_palette_constraint_layout"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/disease_activity_tonal_palette_constraint_layout_height"
+			android:layout_marginLeft="@dimen/disease_activity_tonal_palette_constraint_layout_margin_start"
+			android:background="@color/disease_activity_tonal_palette_constraint_layout_background_color"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="6dp"
+			tools:layout_editor_absoluteY="0dp"/>
+	
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/rectangle3_constraint_layout"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/disease_activity_rectangle3_constraint_layout_height"
+			android:layout_marginLeft="@dimen/disease_activity_rectangle3_constraint_layout_margin_start"
+			android:layout_marginRight="@dimen/disease_activity_rectangle3_constraint_layout_margin_end"
+			android:background="@color/disease_activity_rectangle3_constraint_layout_background_color"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="6dp"
+			tools:layout_editor_absoluteY="0dp"/>
+	
+		<TextView
+			android:id="@+id/caption_text_view"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/disease_activity_caption_text_view_margin_start"
+			android:layout_marginRight="@dimen/disease_activity_caption_text_view_margin_end"
+			android:fontFamily="@font/font_roboto_regular"
+			android:gravity="center"
+			android:letterSpacing="0.02"
+			android:lineSpacingMultiplier="1.14"
+			android:text="Enabled"
+			android:textColor="@color/disease_activity_caption_text_view_text_color"
+			android:textSize="@dimen/disease_activity_caption_text_view_text_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="29dp"
+			tools:layout_editor_absoluteY="0dp"/>
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/chip2_constraint_layout"
+		android:layout_width="@dimen/disease_activity_chip2_constraint_layout_width"
+		android:layout_height="@dimen/disease_activity_chip2_constraint_layout_height"
+		android:layout_marginRight="@dimen/disease_activity_chip2_constraint_layout_margin_end"
+		android:layout_marginTop="@dimen/disease_activity_chip2_constraint_layout_margin_top"
+		app:layout_constraintRight_toLeftOf="@+id/chip1_constraint_layout"
+		app:layout_constraintTop_toBottomOf="@+id/title_constraint_layout"
+		tools:layout_editor_absoluteX="145dp"
+		tools:layout_editor_absoluteY="185dp">
+	
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/surface_two_constraint_layout"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/disease_activity_surface_two_constraint_layout_height"
+			android:layout_marginTop="@dimen/disease_activity_surface_two_constraint_layout_margin_top"
+			android:background="@drawable/disease_activity_surface_two_constraint_layout_background"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="-5dp"/>
+	
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/tonal_palette_two_constraint_layout"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/disease_activity_tonal_palette_two_constraint_layout_height"
+			android:layout_marginRight="@dimen/disease_activity_tonal_palette_two_constraint_layout_margin_end"
+			android:background="@color/disease_activity_tonal_palette_two_constraint_layout_background_color"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="0dp"/>
+	
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/rectangle3_two_constraint_layout"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/disease_activity_rectangle3_two_constraint_layout_height"
+			android:background="@color/disease_activity_rectangle3_two_constraint_layout_background_color"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="0dp"/>
+	
+		<TextView
+			android:id="@+id/caption_two_text_view"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/disease_activity_caption_two_text_view_margin_start"
+			android:layout_marginRight="@dimen/disease_activity_caption_two_text_view_margin_end"
+			android:fontFamily="@font/font_roboto_regular"
+			android:gravity="center"
+			android:letterSpacing="0.02"
+			android:lineSpacingMultiplier="1.14"
+			android:text="Medicine"
+			android:textColor="@color/disease_activity_caption_two_text_view_text_color"
+			android:textSize="@dimen/disease_activity_caption_two_text_view_text_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="13dp"
+			tools:layout_editor_absoluteY="0dp"/>
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/chip3_constraint_layout"
+		android:layout_width="@dimen/disease_activity_chip3_constraint_layout_width"
+		android:layout_height="@dimen/disease_activity_chip3_constraint_layout_height"
+		android:layout_marginLeft="@dimen/disease_activity_chip3_constraint_layout_margin_start"
+		android:layout_marginTop="@dimen/disease_activity_chip3_constraint_layout_margin_top"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/title_constraint_layout"
+		tools:layout_editor_absoluteX="12dp"
+		tools:layout_editor_absoluteY="185dp">
+	
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/surface_three_constraint_layout"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/disease_activity_surface_three_constraint_layout_height"
+			android:layout_marginRight="@dimen/disease_activity_surface_three_constraint_layout_margin_end"
+			android:layout_marginTop="@dimen/disease_activity_surface_three_constraint_layout_margin_top"
+			android:background="@drawable/disease_activity_surface_three_constraint_layout_background"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="3dp"/>
+	
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/tonal_palette_three_constraint_layout"
+			android:layout_width="@dimen/disease_activity_tonal_palette_three_constraint_layout_width"
+			android:layout_height="@dimen/disease_activity_tonal_palette_three_constraint_layout_height"
+			android:background="@color/disease_activity_tonal_palette_three_constraint_layout_background_color"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="0dp"/>
+	
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/rectangle3_three_constraint_layout"
+			android:layout_width="@dimen/disease_activity_rectangle3_three_constraint_layout_width"
+			android:layout_height="@dimen/disease_activity_rectangle3_three_constraint_layout_height"
+			android:background="@color/disease_activity_rectangle3_three_constraint_layout_background_color"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="0dp"/>
+	
+		<TextView
+			android:id="@+id/caption_three_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/disease_activity_caption_three_text_view_margin_start"
+			android:fontFamily="@font/font_roboto_regular"
+			android:gravity="center"
+			android:letterSpacing="0.02"
+			android:lineSpacingMultiplier="1.14"
+			android:text="Visit doctor"
+			android:textColor="@color/disease_activity_caption_three_text_view_text_color"
+			android:textSize="@dimen/disease_activity_caption_three_text_view_text_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="19dp"
+			tools:layout_editor_absoluteY="0dp"/>
+	</android.support.constraint.ConstraintLayout>
+
+	<ImageView
+		android:id="@+id/image_image_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginRight="@dimen/disease_activity_image_image_view_margin_end"
+		android:layout_marginTop="@dimen/disease_activity_image_image_view_margin_top"
+		android:src="@drawable/images___169___corner_shape"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="225dp"
+		tools:layout_editor_absoluteY="75dp"/>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/title_constraint_layout"
+		android:layout_width="@dimen/disease_activity_title_constraint_layout_width"
+		android:layout_height="@dimen/disease_activity_title_constraint_layout_height"
+		android:layout_marginLeft="@dimen/disease_activity_title_constraint_layout_margin_start"
+		android:layout_marginTop="@dimen/disease_activity_title_constraint_layout_margin_top"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="14dp"
+		tools:layout_editor_absoluteY="100dp">
+	
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/headline5_color_style_constraint_layout"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/disease_activity_headline5_color_style_constraint_layout_height"
+			android:layout_marginTop="@dimen/disease_activity_headline5_color_style_constraint_layout_margin_top"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/body2_color_style_constraint_layout"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="21dp">
+		
+			<TextView
+				android:id="@+id/headline5_text_view"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="@dimen/disease_activity_headline5_text_view_margin_end"
+				android:fontFamily="@font/font_roboto_regular"
+				android:gravity="left"
+				android:lineSpacingMultiplier="1"
+				android:text="Kennel Cough"
+				android:textColor="@color/disease_activity_headline5_text_view_text_color"
+				android:textSize="@dimen/disease_activity_headline5_text_view_text_size"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintRight_toRightOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				tools:layout_editor_absoluteX="0dp"
+				tools:layout_editor_absoluteY="0dp"/>
+		</android.support.constraint.ConstraintLayout>
+	
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/body2_color_style_constraint_layout"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/disease_activity_body2_color_style_constraint_layout_height"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="0dp">
+		
+			<TextView
+				android:id="@+id/body2_text_view"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="@dimen/disease_activity_body2_text_view_margin_end"
+				android:fontFamily="@font/font_roboto_regular"
+				android:gravity="left"
+				android:letterSpacing="0.01"
+				android:lineSpacingMultiplier="1.05"
+				android:text="Probability of disease: 13%"
+				android:textColor="@color/disease_activity_body2_text_view_text_color"
+				android:textSize="@dimen/disease_activity_body2_text_view_text_size"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintRight_toRightOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				tools:layout_editor_absoluteX="0dp"
+				tools:layout_editor_absoluteY="-1dp"/>
+		</android.support.constraint.ConstraintLayout>
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/description_constraint_layout"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/disease_activity_description_constraint_layout_height"
+		android:layout_marginLeft="@dimen/disease_activity_description_constraint_layout_margin_start"
+		android:layout_marginRight="@dimen/disease_activity_description_constraint_layout_margin_end"
+		android:layout_marginTop="@dimen/disease_activity_description_constraint_layout_margin_top"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/chip3_constraint_layout"
+		tools:layout_editor_absoluteX="12dp"
+		tools:layout_editor_absoluteY="235dp">
+	
+		<TextView
+			android:id="@+id/desc1_text_view"
+			android:layout_width="@dimen/disease_activity_desc1_text_view_width"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/font_merriweather_regular"
+			android:gravity="left"
+			android:letterSpacing="0.02"
+			android:lineSpacingMultiplier="1"
+			android:text="Kennel cough is a term loosely used to describe a complex of respiratory infections, that causes inflammation of a dog’s voice box and windpipe."
+			android:textColor="@color/disease_activity_desc1_text_view_text_color"
+			android:textSize="@dimen/disease_activity_desc1_text_view_text_size"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="0dp"/>
+	
+		<TextView
+			android:id="@+id/desc2_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/disease_activity_desc2_text_view_margin_top"
+			android:fontFamily="@font/font_merriweather_bolditalic"
+			android:gravity="left"
+			android:letterSpacing="0.02"
+			android:lineSpacingMultiplier="1"
+			android:text="Kennel Cough Prevention"
+			android:textColor="@color/disease_activity_desc2_text_view_text_color"
+			android:textSize="@dimen/disease_activity_desc2_text_view_text_size"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/desc1_text_view"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="101dp"/>
+	
+		<TextView
+			android:id="@+id/desc3_text_view"
+			android:layout_width="@dimen/disease_activity_desc3_text_view_width"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="@dimen/disease_activity_desc3_text_view_margin_end"
+			android:layout_marginTop="@dimen/disease_activity_desc3_text_view_margin_top"
+			android:fontFamily="@font/font_merriweather_regular"
+			android:gravity="left"
+			android:letterSpacing="0.02"
+			android:lineSpacingMultiplier="1"
+			android:text="- The best way to prevent kennel cough is to prevent exposure.
+- Vaccinations are also available for several of the agents known to be involved in kennel cough, including parainfluenza, Bordetella and adenovirus-2.
+- Ask your vet if these are recommended, and how often."
+			android:textColor="@color/disease_activity_desc3_text_view_text_color"
+			android:textSize="@dimen/disease_activity_desc3_text_view_text_size"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/desc2_text_view"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="133dp"/>
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/toolbar"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:background="@color/disease_activity_toolbar_background_color"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"/>
+</android.support.constraint.ConstraintLayout>

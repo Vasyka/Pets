@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<stroke
+		android:color="@color/card_view_holder_card1_border_color"
+		android:width="1dp"/>
+
+	<corners android:radius="@dimen/card_view_holder_card1_radius"/>
+
+	<solid android:color="@color/card_view_holder_card1_background_color"/>
+</shape>

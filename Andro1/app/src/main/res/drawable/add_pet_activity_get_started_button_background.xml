@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<corners android:radius="@dimen/add_pet_activity_get_started_button_radius"/>
+
+	<solid android:color="@color/add_pet_activity_get_started_button_background_color"/>
+</shape>
